@@ -21,5 +21,3 @@ print(cart_obj.items)
 cart_obj.change_discount(38)
 print(cart_obj.discount)
 cart_obj.greet()
-        
-        

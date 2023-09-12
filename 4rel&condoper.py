@@ -11,3 +11,13 @@ elif (c>d):
     print("c is greater number that is {}".format(c)) 
 else:
     print("d is greater number that is {}".format(d))
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# d = int(input())
+
+# max_value = lambda x, y, z, w: max(x, y, z, w)
+
+# result = max_value(a, b, c, d)
+# print(result)

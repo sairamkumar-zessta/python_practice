@@ -1,15 +1,10 @@
-def process_grade(grade):
-    match grade:
-        case 'A':
-            print("Excellent")
-        case 'B':
-            print("Good")
-        case 'C':
-            print("Fair")
-        case 'D':
-            print("Needs Improvement")
-        case _:
-            print("Unknown Grade")
+first_day = input("day:")
+date = int(input())
 
-grade = 'e'
-process_grade(grade)
+
+list_days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+req = (date+list_days.index(first_day)-1)%7
+print(list_days[req])
+
+
+    
